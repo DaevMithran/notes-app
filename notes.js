@@ -33,8 +33,6 @@ const removenote =(title)=>{
     }
 }
 
-debugger
-
 const listnote =()=>{
     const notes = loadNotes()
     console.log(chalk.cyan.inverse('Your Notes'))
